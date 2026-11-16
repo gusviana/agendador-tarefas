@@ -19,7 +19,7 @@ public class TarefasDTO {
     private String descricao;
     private LocalDateTime dataCriacao;
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy HH:mm:ss")
-    private Local dataEvento;
+    private LocalDateTime dataEvento;
     private String emailUsuario;
     private LocalDateTime dataAlteracao;
     private StatusNotificacaoEnum statusNotificacaoEnum;
